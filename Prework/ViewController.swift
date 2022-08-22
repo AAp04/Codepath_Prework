@@ -18,10 +18,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var totalLabel: UILabel!
     
+     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.billAmountTextField.keyboardType = .decimalPad
+        
     }
 
 
@@ -39,7 +41,3 @@ class ViewController: UIViewController {
     
     }
 }
-    
-
-
-
